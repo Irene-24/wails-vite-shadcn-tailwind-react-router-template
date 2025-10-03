@@ -9,7 +9,7 @@ const AppRoutes = () => {
     <HashRouter>
       <div>
         <nav className="fixed bg-white z-10 inset-x-0 ">
-          <div className="start gap-3">
+          <div className="end gap-3 p-3">
             <NavLink to="/" end>
               Home
             </NavLink>
