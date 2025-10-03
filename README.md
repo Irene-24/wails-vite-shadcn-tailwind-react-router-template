@@ -27,6 +27,7 @@ wails init -n myapp -t https://github.com/Irene-24/wails-vite-shadcn-tailwind-re
 In one terminal:
 
 ```bash
+cd myapp
 wails dev
 ```
 
