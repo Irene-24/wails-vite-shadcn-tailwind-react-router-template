@@ -1,0 +1,7 @@
+{
+  "name": "Wails Vite + Tailwind + shadcn/ui + React Router Template",
+  "shortname": "wails-shadcn-vite-reactrouter",
+  "author": "Irene-24",
+  "description": "Starter template for Wails v2 with Vite v3, Tailwind CSS, shadcn/ui components, and React Router integration for modern desktop apps.",
+  "helpurl": "https://github.com/Irene-24/wails-vite-shadcn-tailwind-react-router-template"
+}
