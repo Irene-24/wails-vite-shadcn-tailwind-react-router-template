@@ -1,15 +1,71 @@
-# README
+# Wails Vite + Tailwind + shadcn/ui + React Router Template
 
-## About
+A starter template for building **Wails v2** desktop apps using:
 
-About your template
+* **Vite v3**
+* **React + TypeScript**
+* **Tailwind CSS**
+* **shadcn/ui** component system
+* **React Router** for routing
 
-## Live Development
+This template helps you quickly scaffold modern, styled, multi-page desktop applications with Go on the backend and React on the frontend.
 
-To run in live development mode, run `wails dev` in the project directory. In another terminal, go into the `frontend`
-directory and run `npm run dev`. The frontend dev server will run on http://localhost:34115. Connect to this in your
-browser and connect to your application.
+---
 
-## Building
+## Getting Started
 
-To build a redistributable, production mode package, use `wails build`.
+### Generate a new project from this template
+
+
+```bash
+wails init -n myapp -t https://github.com/Irene-24/wails-vite-shadcn-tailwind-react-router-template
+```
+
+
+### Run in development
+
+In one terminal:
+
+```bash
+wails dev
+```
+
+This will start both the Go backend and Vite frontend dev server. Open your app window and you’ll see your changes instantly thanks to HMR (hot module reload).
+
+---
+
+### Install frontend dependencies
+
+Move into your new project folder and install the frontend dependencies:
+
+```bash
+cd myapp/frontend
+npm install <package-name>
+```
+
+---
+
+### Build for production
+
+To generate a binary:
+
+```bash
+wails build
+```
+
+The compiled app will be located in:
+
+```
+./build/bin/
+```
+
+
+## Help & Documentation
+
+* Wails docs: [https://wails.io/docs](https://wails.io/docs)
+* Tailwind docs: [https://tailwindcss.com](https://tailwindcss.com)
+* shadcn/ui docs: [https://ui.shadcn.com](https://ui.shadcn.com)
+* React Router docs: [https://reactrouter.com/home](https://reactrouter.com/home)
+* Template issues/help: [https://github.com/Irene-24/wails-shadcn-vite-reactrouter](https://github.com/Irene-24/wails-shadcn-vite-reactrouter)
+
+---
